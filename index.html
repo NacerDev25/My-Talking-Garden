@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Talking Garden</title>
+    <!-- خط Cairo من Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="app-container">
+        <header>
+            <h1 class="main-title">My Talking Garden 🦒</h1>
+            <p class="subtitle">تعلم أسماء وأصوات أصدقائنا الحيوانات</p>
+        </header>
+
+        <nav class="categories" role="tablist" aria-label="تصنيفات الحيوانات">
+            <button class="tab-btn active" data-category="pets" role="tab" aria-selected="true">الـحـيـوانـات الألـيـفـة</button>
+            <button class="tab-btn" data-category="wild" role="tab" aria-selected="false">حـيـوانـات الـغـابـة</button>
+            <button class="tab-btn" data-category="sea" role="tab" aria-selected="false">الـحـيـوانـات الـمـائـيـة</button>
+        </nav>
+
+        <main id="animals-grid" class="animals-grid">
+            <!-- سيتم توليد البطاقات بواسطة JavaScript -->
+        </main>
+
+        <footer>
+            <p>صنع بكل حب لمستقبل أطفالنا ❤️</p>
+        </footer>
+    </div>
+
+    <script src="js.js"></script>
+</body>
+</html>
